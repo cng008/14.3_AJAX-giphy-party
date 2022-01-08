@@ -41,3 +41,19 @@ const removeBtn = document.getElementById('remove');
 removeBtn.addEventListener('click', e => {
   results.innerHTML = '';
 });
+
+// ANIMATE HEADER
+function randomRGB() {
+  const r = Math.floor(Math.random() * 256); //put 256 to include 255 bc this will give a num between 0, 254.999~
+  const g = Math.floor(Math.random() * 256);
+  const b = Math.floor(Math.random() * 256);
+  return `rgb(${r}, ${g}, ${b})`;
+}
+
+// change each letter color independently every .5s
+const letters = document.querySelectorAll('span');
+setInterval(function () {
+  for (let letter of letters) {
+    letter.style.color = randomRGB();
+  }
+}, 1000);
