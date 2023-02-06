@@ -1,5 +1,6 @@
 # AJAX Giphy Party
 
+View here 👉 https://github.com/cng008/14.3_AJAX-giphy-party.git
 ## Description
 
 AJAX Giphy Party is a simple application that allows users to search for GIFs using the Giphy API and axios. The application consists of a search form, and when the form is submitted, it makes an AJAX request to the Giphy API and returns a single GIF, which is then appended to the page. The user can search for as many GIFs as they like and keep appending them to the page. They can also remove all of the GIFs by clicking a button.
@@ -11,7 +12,7 @@ AJAX Giphy Party is a simple application that allows users to search for GIFs us
 - Option to remove all GIFs from the page
 
 ## How to Use
-- Clone the repository
+- [Go here](https://github.com/cng008/14.3_AJAX-giphy-party.git) OR clone the repository `$ git clone https://github.com/cng008/14.3_AJAX-giphy-party.git`
 - Run the HTML file in your browser
 - Input a search term in the form and submit it
 - The returned GIF from the Giphy API will be appended to the page
